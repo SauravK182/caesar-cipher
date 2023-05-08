@@ -1,0 +1,37 @@
+***This text file contains the results of the tests from Q5, including:
+	- the encryption/decryption of "good morning"
+	- reading in & writing data that is either to be encrypted, decrypted, or neither
+	- results from printing the encrypted/decrypted data to the terminal
+
+Additionally, the following text files are read/write pairs included in this submission:
+sample_input.txt	        sample_output.txt			using default read/write methods
+sample_input_decrypt.txt	processed_output_decrypt.txt		has the 'decrypt:' prefix
+sample_input_encrypt.txt	processed_output_encrypt.txt		has the 'encrypt:' prefix
+sample_input_noprefix.txt	processed_output_noprefix.txt		no prefix
+***
+
+Printed results:
+Successfully wrote to the file.
+Original string: good morning
+Encrypted string: hppe!npsojoh
+Decrypted string: good morning
+Is original the same as decrypted? true
+
+Successfully wrote to the file.
+Original string: encrypt:WHO LIVES IN A PINEAPPLE UNDER THE SEA? SPONGEBOB SQUAREPANTS
+Processed string: aRY*VS`O]*SX*K*ZSXOKZZVO*_XNO\*^RO*]OKI*]ZYXQOLYL*][_K\OZKX^]¶
+Decrypted string: WHO LIVES IN A PINEAPPLE UNDER THE SEA? SPONGEBOB SQUAREPANTS
+
+
+Successfully wrote to the file.
+Original string: decrypt:aRY*VS`O]*SX*K*ZSXOKZZVO*_XNO\*^RO*]OKI*]ZYXQOLYL*][_K\OZKX^]¶
+Processed string: WHO LIVES IN A PINEAPPLE UNDER THE SEA? SPONGEBOB SQUAREPANTS
+
+Encrypted string: aRY*VS`O]*SX*K*ZSXOKZZVO*_XNO\*^RO*]OKI*]ZYXQOLYL*][_K\OZKX^]¶
+
+
+Successfully wrote to the file.
+Original string: who lives in a pineapple under the sea? spongebob squarepants
+Processed string: who lives in a pineapple under the sea? spongebob squarepants
+
+Read and processed data are the same? true
